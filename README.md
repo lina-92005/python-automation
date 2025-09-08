@@ -23,3 +23,12 @@
 - Adds sequential numbering to prevent collisions.  
 - Supports multiple file types.  
 - Saves a backup mapping (`name_map.json`) for easy restoration.
+## Day 3: File Organizer (Automation Tool)
+**Script:**
+- file_organizer.py
+
+**Features:**
+- Scans a folder and organizes files into categories (images, documents, videos, music, others).
+- Handles duplicate filenames with smart renaming (no overwrites).
+- Easy to customize file categories.
+- Provides clear logs for each moved file.
