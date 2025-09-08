@@ -1,0 +1,44 @@
+from pathlib import Path
+import shutil
+# Folder to organize
+FOLDER_TO_ORGANIZE = Path(r"C:\Users\LENOVO\Desktop\test")
+
+# File categories
+FILE_TYPES = {
+    "Images": [".jpg", ".jpeg", ".png", ".gif"],
+    "Documents": [".pdf", ".docx", ".txt", ".xlsx"],
+    "Videos": [".mp4", ".mkv", ".avi"],
+    "Music": [".mp3", ".wav"],
+}#Each key is a folder name you want. Each value is a list of extensions that belong there.
+
+for category in FILE_TYPES.keys():
+    (FOLDER_TO_ORGANIZE / category).mkdir(exist_ok=True)
+
+# Other folder
+OTHER_FOLDER = FOLDER_TO_ORGANIZE / "Other"
+OTHER_FOLDER.mkdir(exist_ok=True)
+# Function: safely move file
+def safe_move(src_path: Path, dest_folder: Path):
+    dest_path = dest_folder / src_path.name
+    count = 1
+    # If file exists, add (1), (2), etc.
+    while dest_path.exists():
+        dest_path = dest_folder / f"{src_path.stem} ({count}){src_path.suffix}"
+        count += 1
+    shutil.move(str(src_path), str(dest_path))
+    return dest_path.name
+
+# Organize files
+print("=== Moving files ===\n")
+for file in FOLDER_TO_ORGANIZE.iterdir(): #iterdir() lists everything in the folder and calle them files path.
+    if file.is_file():#file.is_file() ensures we only check actual files, not folders.
+        moved = False
+        for category, extensions in FILE_TYPES.items():
+            if file.suffix.lower() in extensions:#file.suffix.lower() gets the file extension
+                moved_name = safe_move(file, FOLDER_TO_ORGANIZE / category)
+                print(f"Moved: {file.name} → {category}/ as {moved_name}") #file.name is a property of Path objects that returns just the file name without the folder path.
+                moved = True
+                break
+        if not moved:
+            moved_name = safe_move(file, OTHER_FOLDER)
+            print(f"Moved: {file.name} → Other/ as {moved_name}")
