@@ -32,3 +32,13 @@
 - Handles duplicate filenames with smart renaming (no overwrites).
 - Easy to customize file categories.
 - Provides clear logs for each moved file.
+## Day 4: Web Scraper → Save to CSV/Excel
+**Script:**
+- WebScraper.py
+
+**Features:**
+- Scrapes quotes, authors, and tags from http://quotes.toscrape.com (or any website via URL change).
+- Supports scraping all pages or a custom number of pages or quotes.
+- Optionally shows a live progress bar while scraping.
+- Saves results into CSV and Excel files (quotes_final.csv / quotes_final_progress.xlsx).
+- Includes a small helper to preview the first 10 quotes directly in Python.
