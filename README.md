@@ -25,7 +25,7 @@
 - Saves a backup mapping (`name_map.json`) for easy restoration.
 ## Day 3: File Organizer (Automation Tool)
 **Script:**
-- file_organizer.py
+- `file_organizer.py`
 
 **Features:**
 - Scans a folder and organizes files into categories (images, documents, videos, music, others).
@@ -34,7 +34,7 @@
 - Provides clear logs for each moved file.
 ## Day 4: Web Scraper → Save to CSV/Excel
 **Script:**
-- WebScraper.py
+- `WebScraper.py`
 
 **Features:**
 - Scrapes quotes, authors, and tags from http://quotes.toscrape.com (or any website via URL change).
@@ -45,7 +45,7 @@
 
 ## Day 5: PDF Automation Master Script
 **Script:**
--pdf_automation.py
+-`pdf_automation.py`
 
 **Features:**
 - Extract Text → Converts PDF content into a .txt file (per page text extraction).
