@@ -45,7 +45,7 @@
 
 ## Day 5: PDF Automation Master Script
 **Script:**
--`pdf_automation.py`
+- `pdf_automation.py`
 
 **Features:**
 - Extract Text → Converts PDF content into a .txt file (per page text extraction).
