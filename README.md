@@ -42,3 +42,16 @@
 - Optionally shows a live progress bar while scraping.
 - Saves results into CSV and Excel files (quotes_final.csv / quotes_final_progress.xlsx).
 - Includes a small helper to preview the first 10 quotes directly in Python.
+
+## Day 5: PDF Automation Master Script
+**Script:**
+-pdf_automation.py
+
+**Features:**
+- Extract Text → Converts PDF content into a .txt file (per page text extraction).
+- Merge PDFs → Supports two modes:
+    Manual → Select specific PDF files in a custom order.
+    Folder → Merge all PDFs inside a folder automatically.
+- Extract Tables → Detects tables in a PDF and exports them into an Excel file, with each table saved on a separate sheet.
+- Flexible Menu → Choose to run one, two, or all tasks in a single execution.
+- Simple & Interactive → User-friendly menu prompts guide you step by step.
