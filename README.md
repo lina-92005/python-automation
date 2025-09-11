@@ -60,3 +60,14 @@ Packaged Executable:
 - The merging script is also available as a Windows executable (.exe), so no Python installation is needed.
     - Built using PyInstaller, keeping the same PDF libraries as the original script.
     - Ready-to-use: just double-click the .exe to run all features interactively.
+## Day 6: Images-to-PDF Script 
+**Scripts:**
+- 'images_to_pdf.py'
+
+**Features:**
+- Converts images (.jpg, .jpeg, .png) to a single PDF.
+- Black watermark (optional) at bottom-right.
+- Page numbers added at bottom-center.
+- All pages have consistent size (stretch or fit option at runtime).
+- Interactive image reorder option at runtime (or default folder order).
+- Supports custom output PDF name.
