@@ -57,6 +57,6 @@
 - Simple & Interactive → User-friendly menu prompts guide you step by step.
 Packaged Executable:
 
-- The script is also available as a Windows executable (.exe), so no Python installation is needed.
+- The merging script is also available as a Windows executable (.exe), so no Python installation is needed.
     - Built using PyInstaller, keeping the same PDF libraries as the original script.
     - Ready-to-use: just double-click the .exe to run all features interactively.
