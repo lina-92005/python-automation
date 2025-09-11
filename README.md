@@ -55,3 +55,8 @@
 - Extract Tables → Detects tables in a PDF and exports them into an Excel file, with each table saved on a separate sheet.
 - Flexible Menu → Choose to run one, two, or all tasks in a single execution.
 - Simple & Interactive → User-friendly menu prompts guide you step by step.
+Packaged Executable:
+
+- The script is also available as a Windows executable (.exe), so no Python installation is needed.
+    - Built using PyInstaller, keeping the same PDF libraries as the original script.
+    - Ready-to-use: just double-click the .exe to run all features interactively.
