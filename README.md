@@ -60,6 +60,7 @@ Packaged Executable:
 - The merging script is also available as a Windows executable (.exe), so no Python installation is needed.
     - Built using PyInstaller, keeping the same PDF libraries as the original script.
     - Ready-to-use: just double-click the .exe to run all features interactively.
+
 ## Day 6: Images-to-PDF Script 
 **Scripts:**
 - 'images_to_pdf.py'
@@ -71,3 +72,21 @@ Packaged Executable:
 - All pages have consistent size (stretch or fit option at runtime).
 - Interactive image reorder option at runtime (or default folder order).
 - Supports custom output PDF name.
+
+## Day 7: Folder Duplicate Finder & Speech Tools (TTS/STT)
+
+### Script 1: duplicate_finder.py
+**Features:**
+- Detects duplicate files in a folder and all its subfolders.
+- Compares files by **content** using SHA-256 hashing for 100% accuracy.
+- Ignores empty files.
+- Keeps the **oldest file** as the original, marks newer copies as duplicates.
+- User chooses folder to scan (default or custom path).
+- Provides 3 actions:
+  1. **Report only** – prints duplicates and saves a `duplicates_report.txt`.
+  2. **Delete duplicates** – safely deletes newer copies after user confirmation.
+  3. **Move duplicates** – moves duplicates to a `duplicates/` folder after confirmation.
+- Dry run confirmation before any delete/move action.
+- Generates a detailed report listing all duplicates.
+
+### Script 2: speech_tools.py
