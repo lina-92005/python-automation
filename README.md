@@ -75,7 +75,7 @@ Packaged Executable:
 
 ## Day 7: Folder Duplicate Finder & Speech Tools (TTS/STT)
 
-### Script 1: duplicate_finder.py
+### Script 1: 'duplicate_finder.py'
 **Features:**
 - Detects duplicate files in a folder and all its subfolders.
 - Compares files by **content** using SHA-256 hashing for 100% accuracy.
@@ -89,4 +89,18 @@ Packaged Executable:
 - Dry run confirmation before any delete/move action.
 - Generates a detailed report listing all duplicates.
 
-### Script 2: speech_tools.py
+### Script 2: 'speech_tools.py'
+**Features:**
+  - Text-to-Speech (TTS / DTS)
+
+- Convert typed text or text from a file into speech.
+- Live playback of audio.
+- Optionally save audio as .wav.
+- Retry loops for robust input handling.
+- Offline functionality (no internet needed).
+  - Speech-to-Text (STT / SCT)
+
+- Capture speech via microphone and convert to text using Google Speech Recognition.
+- Display recognized text in console.
+- Optionally save text as .txt.
+- Error handling for unrecognized audio or API issues.
