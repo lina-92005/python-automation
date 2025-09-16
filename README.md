@@ -118,24 +118,25 @@ Packaged Executable:
 - Interactive terminal prompts for easy use and friendly setup instructions for Gmail App Passwords.
 - Validates Excel format before sending.
 
-. Excel Format:
+**Excel Format:**
 Mode 1 → Same message:
-
+```plaintext
 email
-friend1@gmail.com
-friend2@gmail.com
+person1@gmail.com
+person2@gmail.com
+```
 Mode 2 → Different messages:
-
+```plaintext
 email              message
-friend1@gmail.com  Hello friend1!
-friend2@gmail.com  Hi friend2!
-
+person1@gmail.com  Hello friend1!
+person2@gmail.com  Hi friend2!
+```
 ⚠ Important: The first row must contain headers (email, and message for mode 2).
 
-. Setup Gmail App Password:
-Enable 2-Step Verification on your Google Account.
-Go to  App Passwords.
-Select Mail as the app and your device (or “Other”).
-Copy the generated 16-character password.
+**Setup Gmail App Password:**
+- Enable 2-Step Verification on your Google Account.
+- Go to  App Passwords.
+- Select Mail as the app and your device (or “Other”).
+- Copy the generated 16-character password.
 
 Use it instead of your normal Gmail password in this script.
