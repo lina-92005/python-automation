@@ -107,7 +107,7 @@ Packaged Executable:
 ## Day 8: Email Sender (Excel Integration)
 
 **Script:**
-- 'python send_email.py'
+- `email_sender.py`
 
 **Features:**
 - Send emails in bulk using Gmail SMTP.
