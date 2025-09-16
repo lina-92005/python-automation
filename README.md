@@ -107,7 +107,7 @@ Packaged Executable:
 ## Day 8: Email Sender (Excel Integration)
 
 **Script:**
-- 'send_email.py'
+- 'python send_email.py'
 
 **Features:**
 - Send emails in bulk using Gmail SMTP.
@@ -131,7 +131,7 @@ email              message
 person1@gmail.com  Hello friend1!
 person2@gmail.com  Hi friend2!
 ```
-⚠ Important: The first row must contain headers (email, and message for mode 2).
+Important: The first row must contain headers (email, and message for mode 2).
 
 **Setup Gmail App Password:**
 - Enable 2-Step Verification on your Google Account.
