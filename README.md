@@ -140,3 +140,13 @@ Important: The first row must contain headers (email, and message for mode 2).
 - Copy the generated 16-character password.
 
 Use it instead of your normal Gmail password in this script.
+### Day 9: GUI Automation Launcher
+**Script:**
+- 'Gui.py'
+**Features:**
+- Visually Enhanced Launcher → Provides a PySimpleGUI interface to run multiple Python automation scripts from a single window.
+- Email Sender → Launches the email_sender.py script in a separate terminal.
+- Speech Tool → Launches the speech_tools.py script in a separate terminal.
+- Extra Tool Placeholder → Placeholder button for future automation tools, currently shows an interactive popup.
+- Compact & Resizable GUI → Modern theme, colored buttons, emojis, and resizable layout.
+- Simple & Interactive → User-friendly buttons guide the user step by step without needing command-line input.
