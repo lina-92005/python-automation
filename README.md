@@ -156,5 +156,5 @@ Use it instead of your normal Gmail password in this script.
 - Simple & Interactive → User-friendly buttons guide the user step by step without needing command-line input.
 
 ### Demo
+![GUI Launcher](python-automation/Gui.gif)
 
-![GUI Launcher](Gui.gif)
