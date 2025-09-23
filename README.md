@@ -155,5 +155,5 @@ Use it instead of your normal Gmail password in this script.
 - Compact & Resizable GUI → Modern theme, colored buttons, emojis, and resizable layout.
 - Simple & Interactive → User-friendly buttons guide the user step by step without needing command-line input.
 ### Demo
-![PDF Automation](Gui.gif)
+![Gui launcher](Gui.gif)
 
