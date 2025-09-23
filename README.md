@@ -61,10 +61,11 @@ Packaged Executable:
     - Built using PyInstaller, keeping the same PDF libraries as the original script.
     - Ready-to-use: just double-click the .exe to run all features interactively.
 ### Demo
-![PDF Automation](assets/pdf%20automation.gif)
+![PDF Automation](pdf%20automation.gif)
+
 ## Day 6: Images-to-PDF Script 
 **Scripts:**
-- 'images_to_pdf.py'
+- `images_to_pdf.py`
 
 **Features:**
 - Converts images (.jpg, .jpeg, .png) to a single PDF.
