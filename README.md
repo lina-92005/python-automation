@@ -154,3 +154,6 @@ Use it instead of your normal Gmail password in this script.
 - Extra Tool Placeholder → Placeholder button for future automation tools, currently shows an interactive popup.
 - Compact & Resizable GUI → Modern theme, colored buttons, emojis, and resizable layout.
 - Simple & Interactive → User-friendly buttons guide the user step by step without needing command-line input.
+
+### Demo
+![GUI Launcher](day10_gui.gif)
